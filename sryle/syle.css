@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+body {
+    height: 100vh;
+    background: linear-gradient(135deg, #8E2DE2 0%, #4A00E0 100%);
+    overflow: hidden;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 40px;
+    color: rgba(255, 255, 255, 0.50);
+    font-weight: 300;
+    font-size: 28px;
+}
+.auto_wrapper {
+    margin: 344px auto 0;
+    text-align: center;
+}
+.temp {
+    color: #FFF;
+    font-size: 72px;
+    font-weight: 700;
+}
+.city {
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+}
+.change_city {
+    margin-top: 36px;
+    color: rgba(255, 255, 255, 0.50);
+    font-family: 'Mulish';
+    font-size: 17px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 28px;
+    text-decoration-line: underline;
+    background: none;
+    border: none;
+}
+.search_wrapper {
+    margin: 385px auto 0;
+    text-align: center;
+}
+.search_input {
+    width: 326px;
+    text-align: center;
+    border: none;
+    background: none;
+    outline: none;
+    color: #fff;
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: 400px;
+}
+::placeholder {
+    color: rgba(255, 255, 255, 0.70);
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: 400px;
+}
+
+.line {
+    display: block;
+    width: 326px;
+    height: 2px;
+    background: rgba(255, 255, 255, 0.75);
+    margin: 6px auto 0;
+}
+
+.btn_search {
+    border: none;
+    margin-top: 36px;
+    width: 140px;
+    height: 48px;
+    border-radius: 8px;
+    background: #FFF;
+    color: #4C01E0;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    box-shadow: -1px 5px 21px 4px rgba(34, 60, 80, 0.2);
+}
+.btn_search:hover {
+    transition: 250ms;
+    scale: 110%;
+    
+}
+.error_wrapper {
+    text-align: center;
+    margin-top: 360px;
+}
+.error_descr {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+}
+.error_info{
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 12px;
+    font-weight: 400;
+}
+
+
+.try_again {
+    border: none;
+    margin-top: 57px;
+    width: 140px;
+    height: 48px;
+    border-radius: 8px;
+    background: #FFF;
+    color: #4C01E0;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    box-shadow: -1px 5px 21px 4px rgba(34, 60, 80, 0.2);
+}
+.try_again:hover {
+    transition: 250ms;
+    scale: 110%;
+    
+}
+
+footer {
+    text-align: center;
+    margin-top: 364px;
+}
+.footer_descr {
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 36px;
+}
